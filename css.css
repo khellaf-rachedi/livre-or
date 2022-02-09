@@ -1,0 +1,329 @@
+
+
+/*css du header*/
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-image: url("https://acegif.com/wp-content/gif/outerspace-85.gif");
+    background-size: cover;
+}
+
+.logo-ariane{
+  padding-left: 45%;
+  margin-top: 4%;
+}
+
+.titre-accueil{
+  color:white;
+  padding-left: 29%;
+    font-size: 282%;
+}
+
+
+li,a,button{
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-size: 100%;
+    color:white;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding:0px, 28px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color:rgba(red, green, blue, alpha);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(48, 48, 94);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
+  
+
+/* CSS du footer*/
+
+h3 {
+  font-weight:bold;
+  font-size:20px;
+  color:black;
+}   
+      
+.row{display: flex;  
+  justify-content: space-around;
+  text-align: 5%;
+  font-size: 20px;
+  padding-top: 6%;
+  margin-top: 22%;
+}
+  
+
+footer{
+    background-image: url('https://zupimages.net/up/21/48/nfvr.jpg');
+    background-size: cover;
+    margin:0%
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* css de la page d'accueil*/
+.flex-images{
+flex-wrap: wrap;
+margin-left:10%;
+}
+
+
+
+/* Css page inscription*/
+.background-inscription{
+    background-image: url("https://zupimages.net/up/21/47/661j.jpg");
+    background-attachment: fixed;
+    margin-top: 10%;
+    margin:0%
+}
+
+/* Css page connexion*/
+.background-connexion{
+    background-image: url("https://zupimages.net/up/21/47/fxj2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 1%;
+    margin:0%
+}
+
+/* Css page editionprofil*/
+.background-editionprofil{
+    background-image: url("https://zupimages.net/up/21/48/o4zj.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 1%;
+    margin:0%
+}
+
+/* css page profil*/
+.background-profil{
+    background-image: url("https://zupimages.net/up/21/48/o4zj.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 1%;
+    margin:0%
+}
+
+
+/* css formulaires*/
+#container{
+    width:400px;
+    margin:10% auto;
+    margin-top:1%;
+    margin-bottom: 5%;
+}
+/* Border form */
+form {
+    width: 46%;
+    border: 1px solid aliceblue;
+    box-shadow: 0 0 25px 0;
+    margin-left: 15%;
+    padding:12%;
+}
+
+.form-connexion-inscription{
+    border: 3px solid whitesmoke;;
+    border-radius: 3%;
+    padding: 3%;
+    background-color: transparent;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    margin-left:35%;
+}
+
+#container h1{
+    width: 38%;
+    margin: 6% auto;
+    padding-bottom: 10px;
+    color:white;
+}
+
+b{
+    color:white;
+}
+
+.color-label{
+    color:navy;
+}
+/* width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*style buttons */
+input[type=submit] {
+    background-color:rgb(41, 41, 77);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color:skyblue ;
+    color:darkblue;
+    border: 1px solid ;
+
+}
+
+.logo-formulaire{
+    padding-left: 34%;
+    padding-top: 5%;
+}
+
+
+/* css espace admin*/
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+td {
+    text-align: center;
+}
+
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+
+caption {
+    padding: 1px;
+    caption-side: top;
+    font-size:250%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    padding-right:10%;
+}
+
+.centrer-historique{
+    margin-left:36%;
+}
+
+
+.titre-livre{
+    color:white;
+}
+
+.comm{
+    margin-left:5%;
+    margin-top: 2%;
+}
+
+.background-admin{
+    background-image: url("https://zupimages.net/up/21/48/w7v6.jpg");
+    background-size: cover;
+    margin:0%;
+}
+
+.table-admin{
+    margin-left: 26%;
+}
+
+/* Css bouton deconnexion*/
+.bouton-deconnexion{
+    padding: 9px 25px;
+    background-color:orange;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* Css liens page profil*/
+.lien-profil{
+    color:black;
+}
+
+/* Css page création de commentaires */
+
+.form-commentaire{
+    background-color: mediumslateblue;
+      border-radius: 20px;
+      box-sizing: border-box;
+      padding: 21px;
+      width: 409px;
+      margin-top: 9%;
+      margin-left: 41%;
+      margin-bottom: 9%;
+  }
+
+  input[type="submit"] {
+    background-color: darkslateblue;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 22%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: gold;
+  }
+
+  .input-commentaire{
+    height: 200px;
+    /* position: relative; */
+    width: 103%;
+    border-radius: 10px;
+}
+
+.subtitle{
+    color: white;
+      font-family: sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      padding-left: 18%;
+  }

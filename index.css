@@ -1,0 +1,108 @@
+
+
+/*css du header*/
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-image: url("");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo-ariane{
+  padding-left: 45%;
+  margin-top: 4%;
+}
+
+.titre-accueil{
+  color:white;
+  background-color:white;
+}
+
+
+li,a,button{
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-size: 100%;
+    color:white;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding:0px, 28px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color:rgba(red, green, blue, alpha);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(48, 48, 94);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
+  
+h1{
+  color: white;
+}
+
+/* CSS du footer*/
+
+h3 {
+  font-weight:bold;
+  font-size:20px;
+  color:black;
+}   
+      
+.row{display: flex;  
+  justify-content: space-around;
+  text-align: 5%;
+  font-size: 20px;
+  padding-top: 2%;
+}
+  
+
+footer{
+    background-image: url('https://zupimages.net/up/21/48/nfvr.jpg');
+    background-size: cover;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/* css de la page d'accueil*/
+.flex-images{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.fusee{
+  width:30%;
+  height: 50%;
+  
+}
+
